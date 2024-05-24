@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Real Estate Listing Service</h1>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="listings.php">Listings</a></li>
+                <li><a href="profile.php">Profile</a></li>
+                <li><a href="login_form.html">Login</a></li>
+                <li><a href="registration_form.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="register.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+            <input type="submit" value="Register">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Real Estate Listing Service</p>
+    </footer>
+</body>
+</html>
